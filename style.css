@@ -1,5 +1,37 @@
-.swiper {
-    width: 600px;
-    height: 300px;
+  .swiper {
+    
+    height: 500px;
     font-size: 100px;
+  } 
+
+  @media (min-width:700px){
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      background-color: blueviolet;
+
+    }
+    header>div{
+      width: 300px;
+    }
+    main{
+      width: 980px;
+      margin: 0 auto;
+    }
+    .btn_menu{
+      display: none;
+    }
+    .nav{
+      width: 100%;
+    }
+    .nav ul{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav ul li{
+      border: none;
+      margin: 0 20px;
+    }
   }
