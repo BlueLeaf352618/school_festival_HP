@@ -1,8 +1,83 @@
+
+
+
+
   .swiper {
     
-    height: 500px;
+    height: 400px;
     font-size: 100px;
   } 
+@media (max-width:699px){
+  body{
+    padding: 0;
+    margin: 0;
+    background-color:aliceblue;
+  }
+  header{
+    position: relative;
+    background-color: blueviolet;
+    
+  }
+  header > div{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    
+
+  }
+  header > div img{
+    width: 160px;
+  }
+  .btn_menu{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+  }
+  .btn_menu span{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    /* border-radius: 50%; */
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    /* background-color: black; */
+    color: aliceblue;
+  }
+  .nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    height: 0;
+    opacity: 0;
+    transition: all 300ms;
+  }
+  .nav.show ul{
+    height: auto;
+    opacity: 1;
+  }
+  .nav.show span{
+    font-size: 0px;
+  }
+  .nav.show span:before{
+    font-size: 60px;
+
+    content: "×";
+  }
+  .nav ul li{
+    text-align: center;
+    border-bottom:solid 1px #ccc;
+    padding:0.5px 0;  
+  }
+
+  
+    
+    
+}
+  
+
 
   @media (min-width:700px){
     header{
