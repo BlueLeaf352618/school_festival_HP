@@ -1,5 +1,6 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
+    
     loop: true,
   
     // If we need pagination
@@ -15,3 +16,11 @@ const swiper = new Swiper('.swiper', {
   
     
   });
+
+document.getElementById('btn_menu').onclick = function(){
+  var element = document.getElementById("h_menu");
+  element.classList.toggle('show');
+  
+  
+
+}
