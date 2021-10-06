@@ -57,6 +57,7 @@
   .nav.show ul{
     height: auto;
     opacity: 1;
+    
   }
   .nav.show span{
     font-size: 0px;
@@ -71,12 +72,34 @@
     border-bottom:solid 1px #ccc;
     padding:0.5px 0;  
   }
+  .horror center img{
+    width: 100vw;
+  }
+  .map center img {
+    
+    width: 80vw;
 
-  
+
+    
+  }
+  .pic {
+    display: inline-block;
+    text-align: center;
+  }
+  .pic img{
+    width: 40vw;
+  }
+
+  .access{
+      font-size: 22px;
+    }
     
     
 }
-  
+  .title center{
+    font-size: 30px;
+    text-decoration:underline;
+  }
 
 
   @media (min-width:700px){
