@@ -46,3 +46,10 @@ document.getElementById('btn_menu').onclick = function(){
   
 
 }
+const pagetopBtn = document.querySelector('#top');
+pagetopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
