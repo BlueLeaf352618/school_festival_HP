@@ -1,3 +1,18 @@
+document.getElementById('modal').addEventListener("click",function(){
+  console.log("テスト")
+  document.getElementById('mask').classList.toggle('kesu');
+  document.getElementById('modal').classList.toggle('kesu');
+})
+
+document.getElementById('mask').addEventListener("click",function(){
+  console.log("テスト")
+  document.getElementById('mask').classList.toggle('kesu');
+  document.getElementById('modal').classList.toggle('kesu');
+})
+function open(){
+  dispatchEvent.className="active"
+}
+
 const swiper = new Swiper('.swiper', {
   autoplay: {
     delay: 4000
@@ -21,6 +36,8 @@ const swiper = new Swiper('.swiper', {
   
     
   });
+
+
 
 document.getElementById('btn_menu').onclick = function(){
   var element = document.getElementById("h_menu");
