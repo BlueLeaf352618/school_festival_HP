@@ -8,6 +8,13 @@
     font-size: 100px;
   } 
 @media (max-width:699px){
+  .top img{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 13vw;
+    
+}
   body{
     padding: 0;
     margin: 0;
