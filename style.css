@@ -6,6 +6,7 @@
     
     height: 400px;
     font-size: 100px;
+    background-color: #fff;
   } 
 @media (max-width:699px){
   
@@ -50,6 +51,15 @@
     margin-right: 10px;
     
   }
+  .box {
+    padding: 0.5em 1em;
+    margin: 2em 1.6em;
+    
+    
+    background: #FFF;
+    border: solid 5px purple;
+    border-radius: 20px;
+}
   
   
   .top img{
@@ -62,7 +72,8 @@
   body{
     padding: 0;
     margin: 0;
-    background-color:rgb(247, 254, 255);
+    background-image: url(img/back.png);
+    background-repeat: repeat;
   }
   header{
     width: 100%;
@@ -89,7 +100,7 @@
   }
   .btn_menu span{
     
-    height: 70px;
+    height: 50px;
     width: 70px;
     display: flex;
     /* border-radius: 50%; */
@@ -132,7 +143,7 @@
   }
   .map center img {
     
-    width: 80vw;
+    width: 50vw;
 
 
     
@@ -140,13 +151,15 @@
   .pic {
     display: inline-block;
     text-align: center;
+    font-size: 15px;
+    font-weight: bold;
   }
   .pic img{
-    width: 40vw;
+    width: 35vw;
   }
 
   .access{
-      font-size: 22px;
+      font-size: 15px;
     }
     
     
