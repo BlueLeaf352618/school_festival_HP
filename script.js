@@ -39,17 +39,22 @@ const swiper = new Swiper('.swiper', {
 
 
 
-document.getElementById('btn_menu').onclick = function(){
-  var element = document.getElementById("h_menu");
-  element.classList.toggle('show');
-  
-  
+  document.getElementById('btn_menu').onclick = function(){
+    document.getElementById("h_menu").classList.toggle('show');
+  }
 
-}
-const pagetopBtn = document.querySelector('#top');
-pagetopBtn.addEventListener('click', () => {
+document.querySelector('#top').addEventListener('click', () => {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
   });
 });
+document.querySelector('#access').addEventListener('click', () => {
+  window.scrollTo({
+    top: 400,
+    behavior: "smooth"
+  });
+});
+document.getElementById('access').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
