@@ -9,6 +9,21 @@
     background-color: #fff;
   } 
 @media (max-width:699px){
+  #swiper1{
+    
+  
+    background-color: aqua;
+    }#swiper2{
+    
+  
+      background-color:cornflowerblue;
+      }
+      #swiper3{
+        background-color: aquamarine;
+      }
+  .swiper-slide img {
+    width: 98vw;
+  }
   
   .modal{
     position: fixed;
