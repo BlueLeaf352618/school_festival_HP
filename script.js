@@ -55,6 +55,17 @@ document.querySelector('#access').addEventListener('click', () => {
     behavior: "smooth"
   });
 });
+  document.querySelector('#covid-19').addEventListener('click', () => {
+    window.scrollTo({
+      top: 820,
+      behavior: "smooth"
+    });
+  
+});
+
 document.getElementById('access').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
+document.getElementById('covid-19').onclick = function(){
   document.getElementById("h_menu").classList.toggle('show');
 }
