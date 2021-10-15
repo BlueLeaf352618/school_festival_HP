@@ -9,6 +9,7 @@
     background-color: #fff;
   } 
 @media (max-width:699px){
+  
   #swiper1{
     
   
@@ -58,7 +59,9 @@
     opacity: 0;
     visibility: hidden;
   }
-  
+  .modal.kesu h2{
+    font-size: 0px;
+  }
   
   .modal h2{
     font-weight: bold;
