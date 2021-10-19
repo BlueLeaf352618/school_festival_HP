@@ -1,14 +1,14 @@
-document.getElementById('modal').addEventListener("click",function(){
-  console.log("テスト")
-  document.getElementById('mask').classList.toggle('kesu');
-  document.getElementById('modal').classList.toggle('kesu');
-})
+// document.getElementById('modal').addEventListener("click",function(){
+//   console.log("テスト")
+//   document.getElementById('mask').classList.toggle('kesu');
+//   document.getElementById('modal').classList.toggle('kesu');
+// })
 
-document.getElementById('mask').addEventListener("click",function(){
-  console.log("テスト")
-  document.getElementById('mask').classList.toggle('kesu');
-  document.getElementById('modal').classList.toggle('kesu');
-})
+// document.getElementById('mask').addEventListener("click",function(){
+//   console.log("テスト")
+//   document.getElementById('mask').classList.toggle('kesu');
+//   document.getElementById('modal').classList.toggle('kesu');
+// })
 function open(){
   dispatchEvent.className="active"
 }
