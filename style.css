@@ -197,5 +197,7 @@ body{
   }
   
 
-
-  
+.zenkai iframe{
+  width: 90%;
+  height: 300px;
+}
