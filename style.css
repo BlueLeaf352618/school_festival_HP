@@ -232,3 +232,12 @@ body{
 .coupon_2 center img {
   width: 30%;
 }
+.Countdown .counter{
+  font-size: 9vw;
+  text-align-last: justify;
+}
+.Countdown{
+  position: relative;
+
+  
+}
