@@ -201,3 +201,34 @@ body{
   width: 85%;
   
 }
+
+
+.coupon_1 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: black;
+  background: red;
+  border-bottom: solid 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+.coupon_1 center img{
+  width: 30%;
+}
+.coupon_1 .code center{
+  font-size: 50px;
+}
+
+.coupon_2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: black;
+  background: red;
+  border-bottom: solid 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+}
+
+.coupon_2 center img {
+  width: 30%;
+}
