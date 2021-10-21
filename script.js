@@ -69,3 +69,33 @@ document.getElementById('access').onclick = function(){
 document.getElementById('covid-19').onclick = function(){
   document.getElementById("h_menu").classList.toggle('show');
 }
+
+
+const reiwa = document.querySelector('.reiwa');
+const counter = document.querySelector('.counter');
+
+function nanNichi(){
+
+const d1 = new Date();
+const d2 = new Date('2021/11/25 00:00'); 
+
+const d3 = d2 - d1;
+const d3_Sec = Math.floor(d3 / 1000);
+const Minute_Sec = 60;
+const Hour_Sec = 60 * 60;
+const Day_Sec = 60 * 60 * 24;
+
+const d4_Day = Math.floor(d3_Sec / Day_Sec);
+const d5_Hour = Math.floor(d3_Sec / Hour_Sec  % 24);
+const d6_Minute = Math.floor(d3_Sec / Minute_Sec % 60);
+const d7_Sec = Math.floor(d3_Sec % 60);
+   
+counter.innerHTML = d4_Day + "日" + d5_Hour + "時間" + d6_Minute + "分" + d7_Sec + "秒";
+setTimeout(nanNichi, 1000);
+}
+
+nanNichi();
+
+
+
+Resources
