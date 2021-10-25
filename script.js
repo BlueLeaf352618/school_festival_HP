@@ -49,27 +49,66 @@ document.querySelector('#top').addEventListener('click', () => {
     behavior: "smooth"
   });
 });
-document.querySelector('#access').addEventListener('click', () => {
+
+document.querySelector('#nokori').addEventListener('click', () => {
   window.scrollTo({
-    top: 400,
+    top: 300,
     behavior: "smooth"
   });
 });
-  document.querySelector('#covid-19').addEventListener('click', () => {
+  document.querySelector('#access').addEventListener('click', () => {
     window.scrollTo({
-      top: 820,
+      top: 600,
       behavior: "smooth"
     });
   
 });
+document.querySelector('#covid-19').addEventListener('click', () => {
+  window.scrollTo({
+    top: 1100,
+    behavior: "smooth"
+  });
 
+});
+document.querySelector('#yotei').addEventListener('click', () => {
+  window.scrollTo({
+    top: 1900,
+    behavior: "smooth"
+  });
+
+});
+document.querySelector('#maeno').addEventListener('click', () => {
+  window.scrollTo({
+    top: 2100,
+    behavior: "smooth"
+  });
+
+});
+document.querySelector('#waribiki').addEventListener('click', () => {
+  window.scrollTo({
+    top: 2100,
+    behavior: "smooth"
+  });
+
+});
+document.getElementById('nokori').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
 document.getElementById('access').onclick = function(){
   document.getElementById("h_menu").classList.toggle('show');
 }
 document.getElementById('covid-19').onclick = function(){
   document.getElementById("h_menu").classList.toggle('show');
 }
-
+document.getElementById('yotei').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
+document.getElementById('maeno').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
+document.getElementById('waribiki').onclick = function(){
+  document.getElementById("h_menu").classList.toggle('show');
+}
 
 const reiwa = document.querySelector('.reiwa');
 const counter = document.querySelector('.counter');
