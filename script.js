@@ -116,7 +116,7 @@ const counter = document.querySelector('.counter');
 function nanNichi(){
 
 const d1 = new Date();
-const d2 = new Date('2021/11/25 09:30'); 
+const d2 = new Date('2021/11/25 10:00'); 
 
 const d3 = d2 - d1;
 const d3_Sec = Math.floor(d3 / 1000);
